@@ -1,0 +1,6 @@
+---
+# tasks file for common package
+- name: Install common package
+  yum: name={{ item }} state=present
+  with_items:
+    - epel-release

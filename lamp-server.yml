@@ -1,7 +1,8 @@
 ---
 - name: Apply for all config to node
-  hosts: sandbox
+  hosts: "{{ hostname }}"
   roles:
+    - common
     - apache-server
     - php-stack
     - mariadb-server
