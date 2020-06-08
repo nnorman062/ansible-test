@@ -1,6 +1,6 @@
 ---
-  name: Apply for all config to node
-  host: sandbox
+- name: Apply for all config to node
+  hosts: sandbox
   roles:
     - apache-server
     - php-stack
