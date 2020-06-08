@@ -2,16 +2,9 @@
 # CentOS 7 LAMP Stack
 # Version: 1.0
 
-- name: deploy MySQL and configure databases
-  hosts: sandbox
-  remote_user: root
-   
-  roles:
-   - db
    
 - name: deploy Apache, PHP and configure website code
   hosts: sandbox
   remote_user: root
-   
   roles:
    - web

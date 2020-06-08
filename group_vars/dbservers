@@ -1,8 +1,0 @@
----
-# Database system variables
-mysqlservice: mysqld
-mysql_port: 3306
-dbuser: web-user
-dbname: web
-upassword: password
-masterpassword: password
