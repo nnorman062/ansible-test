@@ -1,5 +1,5 @@
 [webservers]
-sandbox
+sandbox.nn-lab.lan
 
 [dbservers]
-sandbox
+sandbox.nn-lab.lan
