@@ -1,0 +1,14 @@
+---
+# tasks file for apache-server
+- name: Install Apache
+  yum: name={{ item }} state=present
+  with_items:
+    - httpd
+    - mod_ssl
+
+- name: Enable and start Apache
+  systemd:
+    name: httpd
+    state: started
+    enabled: true
+
