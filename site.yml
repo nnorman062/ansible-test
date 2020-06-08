@@ -1,4 +1,5 @@
 ---
+  name: Apply for all config to node
   roles:
     - apache-server
     - php-stack
