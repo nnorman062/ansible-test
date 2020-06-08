@@ -1,5 +1,6 @@
 ---
   name: Apply for all config to node
+  host: sandbox
   roles:
     - apache-server
     - php-stack
