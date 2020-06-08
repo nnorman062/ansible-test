@@ -1,5 +1,5 @@
 [webservers]
-sandbox.nn-lab.lan
+172.16.100.250
 
 [dbservers]
-sandbox.nn-lab.lan
+172.16.100.250
